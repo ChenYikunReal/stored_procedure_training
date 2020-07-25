@@ -13,7 +13,7 @@ SQL是Structrued Query Language的缩写，即结构化查询语言。它是负�
 
 T-SQL是SQL语言的一种版本，且只能在SQL SERVER上使用。它是ANSI SQL的加强版语言、提供了标准的SQL命令。另外，T-SQL还对SQL做了许多补允，提供了数据库脚本语言，即类似C、Basic和Pascal的基本功能，如变量说明、流控制语言、功能函数等。
 
-PL-SQL（Procedural Language-SQL）是一种增加了过程化概念的SQL语言，是Oracle对SQL的扩充。与标准SQL语言相同，PL-SQL也是Oracle客户端工具（如SQL*Plus、Developer/2000等）访问服务器的操作语言。它有标准SQL所没有的特征：变量（包括预先定义的和自定义的）；控制结构（如IF-THEN-ELSE等流控制语句）；自定义的存储过程和函数 ；对象类型等。由于 P/L-SQL 融合了SQL语言的灵活性和过程化的概念，使得PL-SQL成为了一种功能强大的结构化语言，可以设计复杂的应用。
+PL-SQL(Procedural Language-SQL)是一种增加了过程化概念的SQL语言，是Oracle对SQL的扩充。与标准SQL语言相同，PL-SQL也是Oracle客户端工具（如SQL*Plus、Developer/2000等）访问服务器的操作语言。它有标准SQL所没有的特征：变量（包括预先定义的和自定义的）；控制结构（如IF-THEN-ELSE等流控制语句）；自定义的存储过程和函数 ；对象类型等。由于 P/L-SQL 融合了SQL语言的灵活性和过程化的概念，使得PL-SQL成为了一种功能强大的结构化语言，可以设计复杂的应用。
 
 ## DataGrip配置教程
 - [DataGrip官网](https://www.jetbrains.com/datagrip/)
@@ -22,10 +22,10 @@ PL-SQL（Procedural Language-SQL）是一种增加了过程化概念的SQL语言
 - 导入的jar包见项目中的<code>mysql-connector-java-8.0.21</code>，JDBC用的也是这个东西
 
 ## 存储过程概述
-MySQL 5.0 版本开始支持存储过程。
-存储过程(Stored Procedure)是一种在数据库中存储复杂程序，以便外部程序调用的一种数据库对象。
-存储过程是为了完成特定功能的SQL语句集，经编译创建并保存在数据库中，用户可通过指定存储过程的名字并给定参数(需要时)来调用执行。
-存储过程思想上很简单，就是数据库 SQL 语言层面的代码封装与重用。
+MySQL 5.0 版本开始支持存储过程。<br/>
+存储过程(Stored Procedure)是一种在数据库中存储复杂程序，以便外部程序调用的一种数据库对象。<br/>
+存储过程是为了完成特定功能的SQL语句集，经编译创建并保存在数据库中，用户可通过指定存储过程的名字并给定参数(需要时)来调用执行。<br/>
+存储过程思想上很简单，就是数据库 SQL 语言层面的代码封装与重用。<br/>
 优点：
 - 存储过程可封装，并隐藏复杂的商业逻辑。
 - 存储过程可以回传值，并可以接受参数。
@@ -84,13 +84,13 @@ Navicat导入(命令行也可)test.sql，很快就能执行完毕。<br/>
 test.sql不仅含有表结构，还含有表数据，甚至还有存储过程！
 
 ## 效果演示
-运行前<br/>
+运行前：<br/>
 ![在这里插入图片描述](https://github.com/ChenYikunReal/stored_procedure_training/blob/master/pre.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg5NjMxOA==,size_16,color_FFFFFF,t_70)
-<br/>运行参数<br/>
+<br/>运行参数：<br/>
 ![在这里插入图片描述](https://github.com/ChenYikunReal/stored_procedure_training/blob/master/param.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg5NjMxOA==,size_16,color_FFFFFF,t_70)
-<br/>运行成功<br/>
+<br/>运行成功：<br/>
 ![在这里插入图片描述](https://github.com/ChenYikunReal/stored_procedure_training/blob/master/success.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg5NjMxOA==,size_16,color_FFFFFF,t_70)
-<br/>运行后<br/>
+<br/>运行后：<br/>
 ![在这里插入图片描述](https://github.com/ChenYikunReal/stored_procedure_training/blob/master/pro.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg5NjMxOA==,size_16,color_FFFFFF,t_70)
 
 
