@@ -18,7 +18,7 @@ PL-SQL(Procedural Language-SQL)是一种增加了过程化概念的SQL语言，�
 - [DataGrip官网](https://www.jetbrains.com/datagrip/)
 - [教程](https://www.cnblogs.com/linkenpark/p/10908101.html)
 - [jar包下载地址](https://dev.mysql.com/downloads/connector/j/)
-- 导入的jar包见项目中的<code>mysql-connector-java-8.0.21</code>，JDBC用的也是这个东西
+- 导入的jar包见项目中的`mysql-connector-java-8.0.21`，JDBC用的也是这个东西
 
 ## 存储过程概述
 MySQL 5.0 版本开始支持存储过程。<br/>
@@ -40,7 +40,7 @@ MySQL 5.0 版本开始支持存储过程。<br/>
 2. 所有的VARCHAR都不对，必须写VARCHAR(255)这种
 3. Navicat对调试存储过程帮助不大，甚至说毫无帮助，建议使用DataGrip
 4. 注意分号
-5. 注意<code>END IF</code>这种都是必写的，与Java不同，有点像VB.NET
+5. 注意`END IF`这种都是必写的，与Java不同，有点像VB.NET
 
 ## 存储过程Demo
 ```mysql
@@ -83,13 +83,17 @@ Navicat导入(命令行也可)test.sql，很快就能执行完毕。<br/>
 test.sql不仅含有表结构，还含有表数据，甚至还有存储过程！
 
 ## 效果演示
+
 运行前：<br/>
-![在这里插入图片描述](https://github.com/ChenYikunReal/stored_procedure_training/blob/master/pre.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg5NjMxOA==,size_16,color_FFFFFF,t_70)
-<br/>运行参数：<br/>
-![在这里插入图片描述](https://github.com/ChenYikunReal/stored_procedure_training/blob/master/param.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg5NjMxOA==,size_16,color_FFFFFF,t_70)
-<br/>运行成功：<br/>
-![在这里插入图片描述](https://github.com/ChenYikunReal/stored_procedure_training/blob/master/success.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg5NjMxOA==,size_16,color_FFFFFF,t_70)
-<br/>运行后：<br/>
-![在这里插入图片描述](https://github.com/ChenYikunReal/stored_procedure_training/blob/master/pro.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg5NjMxOA==,size_16,color_FFFFFF,t_70)
+![](pre.PNG0)
+
+运行参数：<br/>
+![](param.PNG0)
+
+运行成功：<br/>
+![](success.PNG0)
+
+运行后：<br/>
+![](pro.PNG0)
 
 
