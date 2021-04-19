@@ -1,5 +1,4 @@
-# stored_procedure_training
-SQL/PL-SQL存储过程训练
+# SQL/PL-SQL存储过程训练
 
 ## 软件工具
 | 软件名称 | 工具版本 |
